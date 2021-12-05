@@ -1,0 +1,72 @@
+/*mise ne page*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*CSS de base*/
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.jaune {
+    color: #F5992D;
+}
+
+.titre {
+    text-transform: uppercase;
+}
+
+
+/*body*/
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/*Identite*/
+
+.identite {
+    background-color: #644848;
+    width: calc(100%/4);
+    height: 100vh;
+}
+
+.nom,
+.coordonnee,
+.logiciel {
+    margin: 0 13px;
+}
+
+.coordonnee,
+.logiciel {
+    padding: 30px 0;
+}
+
+.titre {
+    margin: 8% 0;
+}
+
+.prenom {
+    margin-left: 20px;
+}
+
+
+/*parcours*/
+
+.parcours {
+    width: calc((3/4)*100%);
+    background-color: rebeccapurple;
+    height: 100vh;
+}
